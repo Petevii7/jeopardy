@@ -1,4 +1,4 @@
-xport default class ScoreboardView {
+export class ScoreboardView {
 	constructor(root, playerOneName, playerTwoName, onControlButtonClick) {
 		this.root = root;
 		this.root.innerHTML = `
